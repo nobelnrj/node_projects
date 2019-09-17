@@ -1,0 +1,26 @@
+{
+  "name": "node_project_1",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobelNrJ20/Node_Project_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NobelNrJ20/Node_Project_1/issues"
+  },
+  "homepage": "https://github.com/NobelNrJ20/Node_Project_1#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
+}

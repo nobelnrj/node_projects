@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  border-bottom: 4px #f70606 solid;
+  min-height: 70px;
+}
+
+#main-heading {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 40px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 0;
+}
+
+#nav-bar {
+  padding: 20px;
+}
+
+#nav-bar li {
+  display: inline;
+  list-style: none;
+  padding-right: 10px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f70606;
+  font-size: 1.3em;
+}
+
+/* Banner */
+section#showcase {
+  min-height: 300px;
+  background: url("https://s3-eu-west-1.amazonaws.com/redeemassets-eu-west-1/Envirofone/15849-1602-envirofone/images/pages/homepage/mobile/banner_phone_artwork_tablet.jpg")
+    no-repeat;
+  text-align: center;
+  color: #f70606;
+}
+
+section#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+/* Content */
+/* Main-Content */
+section#content {
+  float: left;
+  width: 70%;
+}
+
+section#content h1 {
+  text-transform: uppercase;
+}
+
+/* Sidebar */
+aside#sidebar {
+  margin-top: 100px;
+  float: right;
+  width: 25%;
+}
+
+aside#sidebar li {
+  margin-top: 20px;
+  list-style: none;
+}
+
+aside#sidebar a {
+  text-decoration: none;
+  color: #f70606;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+/* Video */
+#video {
+  margin: 90px 0 70px 400px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+  border-top: 4px #f70606 solid;
+  text-align: center;
+  font-size: 1em;
+  padding: 10px;
+}
